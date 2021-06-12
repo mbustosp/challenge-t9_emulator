@@ -1,3 +1,5 @@
+import { ThemeProvider } from "@material-ui/core/styles";
+import darkTheme from "../src/themes/darkTheme";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -7,4 +9,12 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
+
+export const decorators = [
+  (Story) => (
+    <ThemeProvider theme={darkTheme}>
+      <Story />
+    </ThemeProvider>
+  ),
+];
