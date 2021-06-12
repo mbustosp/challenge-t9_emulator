@@ -1,5 +1,7 @@
 import { ThemeProvider } from "@material-ui/core/styles";
 import darkTheme from "../src/themes/darkTheme";
+import lightTheme from "../src/themes/lightTheme";
+import { useColorScheme } from "use-color-scheme";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -12,9 +14,12 @@ export const parameters = {
 };
 
 export const decorators = [
-  (Story) => (
-    <ThemeProvider theme={darkTheme}>
-      <Story />
-    </ThemeProvider>
-  ),
+  (Story) => {
+    const { scheme } = useColorScheme();
+    return (
+      <ThemeProvider theme={scheme === "dark" ? darkTheme : lightTheme}>
+        <Story />
+      </ThemeProvider>
+    );
+  },
 ];
