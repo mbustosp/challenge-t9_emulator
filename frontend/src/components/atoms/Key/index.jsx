@@ -19,9 +19,6 @@ import {
 const useStyles = makeStyles((theme) =>
   createStyles({
     Paper: {
-      backgroundColor: "rgba(255, 255, 255, 0.25)",
-      boxShadow: "rgba(142, 142, 142, 0.19) 0px 6px 15px 0px",
-      color: "rgba(255, 255, 255, 0.75)",
       borderRadius: "16px",
       overflow: "hidden",
     },
