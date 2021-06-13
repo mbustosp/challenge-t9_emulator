@@ -4,6 +4,7 @@ import lightTheme from "../src/themes/lightTheme";
 import { useColorScheme } from "use-color-scheme";
 
 export const parameters = {
+  layout: "fullscreen",
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
