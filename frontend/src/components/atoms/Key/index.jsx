@@ -49,12 +49,14 @@ const Key = ({ primarySymbol, secondarySymbols, onClick }) => {
         variant="contained"
         fullWidth
       >
-        <Box display="flex" alignItems="center" p={2} height="60px">
+        <Box display="flex" alignItems="center" height="7em">
           <Grid container alignItems="center" justify="center">
             {primarySymbol !== null ? (
               <Grid item xs={12} container justify="center" alignItems="center">
-                {Number.isInteger(primarySymbol) ? (
-                  <Typography variant="h3">{primarySymbol}</Typography>
+                {typeof primarySymbol !== "object" ? (
+                  <Typography variant="h3" component="span">
+                    {primarySymbol}
+                  </Typography>
                 ) : (
                   primarySymbol
                 )}
@@ -83,7 +85,7 @@ Key.propTypes = {
   /**
    The main element of the key
    */
-  primarySymbol: PropTypes.oneOfType([PropTypes.number, PropTypes.node]),
+  primarySymbol: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   /**
    Collection of elements that will be located under the main one
    */
