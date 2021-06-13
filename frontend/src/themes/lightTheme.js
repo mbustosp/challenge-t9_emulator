@@ -6,10 +6,10 @@ export default createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#edf6f9",
+      main: "#faf9f9",
     },
     secondary: {
-      main: "#fed9b7",
+      main: "#edf6f9",
     },
   },
 });
