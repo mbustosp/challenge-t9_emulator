@@ -40,7 +40,7 @@ describe("Key", () => {
     const onClick = jest.fn();
     render(
       <ThemeProvider theme={darkTheme}>
-        <Key onClick={onClick} number={keyPrimarySymbol} />
+        <Key onClick={onClick} primarySymbol={keyPrimarySymbol} />
       </ThemeProvider>
     );
     fireEvent.click(screen.getByText(keyPrimarySymbol));
