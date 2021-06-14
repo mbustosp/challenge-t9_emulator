@@ -2,6 +2,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import darkTheme from "../src/themes/darkTheme";
 import lightTheme from "../src/themes/lightTheme";
 import { useColorScheme } from "use-color-scheme";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 export const parameters = {
   layout: "fullscreen",
@@ -19,6 +20,7 @@ export const decorators = [
     const { scheme } = useColorScheme();
     return (
       <ThemeProvider theme={scheme === "dark" ? darkTheme : lightTheme}>
+        <CssBaseline />
         <Story />
       </ThemeProvider>
     );
