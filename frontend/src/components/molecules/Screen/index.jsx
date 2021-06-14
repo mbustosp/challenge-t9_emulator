@@ -40,6 +40,7 @@ const Screen = ({ text, SuggestionsComponent }) => {
       flexDirection="column"
       justifyContent="space-between"
       px={2}
+      pt={1}
       borderRadius="16px"
     >
       <Box className={classes.Screen} width="100%">
