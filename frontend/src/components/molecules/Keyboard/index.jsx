@@ -13,7 +13,7 @@ import Key from "../../atoms/Key";
 const Keyboard = ({ onKeyPress }) => {
   const oneToNineKeys = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
-    <Box maxWidth={400} width="100%">
+    <Box width="100%">
       <Grid container spacing={1}>
         {oneToNineKeys.map((key) => (
           <Grid item xs={4} key={key}>

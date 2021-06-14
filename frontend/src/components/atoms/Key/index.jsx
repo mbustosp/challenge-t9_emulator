@@ -10,7 +10,6 @@ import {
   Box,
   Button,
   Typography,
-  Paper,
   Grid,
   createStyles,
   makeStyles,
@@ -18,9 +17,9 @@ import {
 
 const useStyles = makeStyles((theme) =>
   createStyles({
-    Paper: {
-      borderRadius: "16px",
+    Wrapper: {
       overflow: "hidden",
+      borderRadius: "16px",
     },
     Button: {
       padding: 0,
@@ -38,7 +37,7 @@ const Key = ({ primarySymbol, secondarySymbols, onClick }) => {
   const classes = useStyles();
 
   return (
-    <Paper elevation={3} className={classes.Paper}>
+    <Box boxShadow={1} className={classes.Wrapper}>
       <Button
         className={classes.Button}
         color="primary"
@@ -46,10 +45,17 @@ const Key = ({ primarySymbol, secondarySymbols, onClick }) => {
         variant="contained"
         fullWidth
       >
-        <Box display="flex" alignItems="center" height="7em">
+        <Box display="flex" alignItems="center">
           <Grid container alignItems="center" justify="center">
             {primarySymbol !== null ? (
-              <Grid item xs={12} container justify="center" alignItems="center">
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                container
+                justify="center"
+                alignItems="center"
+              >
                 {typeof primarySymbol !== "object" ? (
                   <Typography variant="h3" component="span">
                     {primarySymbol}
@@ -60,7 +66,7 @@ const Key = ({ primarySymbol, secondarySymbols, onClick }) => {
               </Grid>
             ) : null}
 
-            <Grid item xs={12}>
+            <Grid item xs={12} sm={6}>
               {secondarySymbols.map((secondarySymbol) => (
                 <Typography
                   key={secondarySymbol}
@@ -74,7 +80,7 @@ const Key = ({ primarySymbol, secondarySymbols, onClick }) => {
           </Grid>
         </Box>
       </Button>
-    </Paper>
+    </Box>
   );
 };
 

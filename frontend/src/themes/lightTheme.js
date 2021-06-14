@@ -1,4 +1,4 @@
-import { createMuiTheme } from "@material-ui/core";
+import { unstable_createMuiStrictModeTheme as createMuiTheme } from "@material-ui/core";
 
 export default createMuiTheme({
   typography: {
@@ -6,10 +6,10 @@ export default createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#faf9f9",
+      main: "#545454",
     },
     secondary: {
-      main: "#edf6f9",
+      main: "#f9f5ed",
     },
   },
 });
