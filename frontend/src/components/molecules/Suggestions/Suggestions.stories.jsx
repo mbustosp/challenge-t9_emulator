@@ -1,5 +1,6 @@
 import { action } from "@storybook/addon-actions";
 import Suggestions from "./index";
+import specialChars from "../../../utils/specialChars";
 
 const Template = (args) => <Suggestions {...args} />;
 
@@ -10,7 +11,7 @@ export const WithOneSuggestion = () => (
 );
 WithOneSuggestion.storyName = "With one word";
 
-export const WithManySuggestion = () => (
+export const WithManySuggestions = () => (
   <Suggestions
     words={[
       "this",
@@ -25,7 +26,15 @@ export const WithManySuggestion = () => (
     onWordChoose={action("Chosen word")}
   />
 );
-WithManySuggestion.storyName = "With many words";
+WithManySuggestions.storyName = "With many words";
+
+export const WithEmptySpaceCharacters = () => (
+  <Suggestions
+    words={["💡", " ", specialChars.SPACE, "⚽"]}
+    onWordChoose={action("Chosen word")}
+  />
+);
+WithEmptySpaceCharacters.storyName = "With space characters";
 
 export const Loading = () => (
   <Suggestions words={["test"]} onWordChoose={action("Chosen word")} loading />
