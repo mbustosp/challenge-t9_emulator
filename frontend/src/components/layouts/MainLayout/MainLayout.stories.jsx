@@ -1,7 +1,7 @@
 import { Box, Typography } from "@material-ui/core";
 import { action } from "@storybook/addon-actions";
 import MainLayout from "./index";
-import Screen from "../../molecules/Screen";
+import Screen from "../../organisms/Screen";
 import Keyboard from "../../molecules/Keyboard";
 import Suggestions from "../../molecules/Suggestions";
 
