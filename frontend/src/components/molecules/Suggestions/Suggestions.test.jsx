@@ -2,6 +2,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import { fireEvent, render, screen } from "@testing-library/react";
 import darkTheme from "../../../themes/darkTheme";
 import Suggestions from "./index";
+import specialChars from "../../../utils/specialChars";
 
 describe("Suggestions", () => {
   it("renders without crash", () => {
@@ -31,6 +32,17 @@ describe("Suggestions", () => {
     const checkThatItWasRendered = (word) =>
       expect(screen.getByText(word)).toBeTruthy();
     wordSuggestions.forEach(checkThatItWasRendered);
+  });
+
+  it("renders spaces characters as SPACE text", async () => {
+    const wordSuggestions = [specialChars.SPACE, " "];
+    render(
+      <ThemeProvider theme={darkTheme}>
+        <Suggestions words={wordSuggestions} />
+      </ThemeProvider>
+    );
+    const matchings = await screen.findAllByText("SPACE");
+    expect(matchings).toHaveLength(2);
   });
 
   it("calls onWordChoose callback function with the word of the clicked chip", () => {

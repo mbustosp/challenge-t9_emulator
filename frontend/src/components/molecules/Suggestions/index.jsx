@@ -2,6 +2,7 @@
  * Core dependencies
  */
 import PropTypes from "prop-types";
+import specialChars from "../../../utils/specialChars";
 
 /**
  * UI components
@@ -26,7 +27,9 @@ const Suggestions = ({ words, onWordChoose, loading }) => (
         <Grow in={!loading} appear timeout={1000} key={word}>
           <Box px={0.5}>
             <Chip
-              label={word}
+              label={
+                word === specialChars.SPACE || word === " " ? "SPACE" : word
+              }
               color="primary"
               onClick={() => onWordChoose(word)}
             />
