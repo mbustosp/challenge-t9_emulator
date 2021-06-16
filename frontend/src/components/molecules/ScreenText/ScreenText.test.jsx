@@ -39,12 +39,12 @@ describe("ScreenText", () => {
   });
 
   it("renders last word as active if active word is not present", () => {
-    const words = [getWord("4545", 0, "apple"), getWord("45455", 0, "applex")];
+    const words = [getWord("4545", 0, "apple"), getWord("45455", 1, "applex")];
     render(
       <ThemeProvider theme={darkTheme}>
         <ScreenText words={words} />
       </ThemeProvider>
     );
-    expect(screen.getByLabelText(words[words.length - 1].chosen)).toBeTruthy();
+    expect(screen.getByText(words[words.length - 1].chosen)).toBeTruthy();
   });
 });
