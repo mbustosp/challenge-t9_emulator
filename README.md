@@ -15,6 +15,7 @@ Consists of a React application that fetches T9 word prediction data from a web 
 - Light / Dark theme based on the user's color schema.
 - Nice numeric keyboard.
 - T9 mode switch.
+- Suggestions dictionary to avoid repeated service requests.
 
 ### The backend
 
@@ -47,4 +48,3 @@ There is a .env file located in the frontend folder that has the environment var
 0. Move to the frontend folder.
 1. Open the .env file.
 2. Change the value of the REACT_APP_T9_API_URL variable.
-
