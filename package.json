@@ -21,7 +21,8 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx}": "npm run frontend:lint && npm run backend:lint"
+    "frontend/**/*.{js,jsx}": "npm run frontend:lint",
+    "backend/**/*.{js}": "npm run backend:lint"
   },
   "repository": {
     "type": "git",
