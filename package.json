@@ -11,6 +11,7 @@
     "backend:install": "cd backend && npm install",
     "frontend:start": "cd frontend && npm run start",
     "backend:start": "cd backend && cross-env PORT=3001 npm run start",
+    "both:test": "npm run frontend:test && npm run backend:test",
     "both:install": "npm run frontend:install && npm run backend:install",
     "start": "concurrently \"npm run backend:start\" \"npm run frontend:start\""
   },

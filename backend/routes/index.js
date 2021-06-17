@@ -1,10 +1,13 @@
 const express = require("express");
+const { getSuggestions } = require("../service/t9");
 
 const router = express.Router();
 
 /* GET */
 router.get("/", (req, res) => {
-  res.send(["mock1", "mock2"]);
+  const digits = req.query.input;
+  const suggestions = getSuggestions(digits);
+  return res.send(suggestions);
 });
 
 module.exports = router;

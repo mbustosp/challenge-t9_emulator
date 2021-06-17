@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node bin/www.js",
+    "start": "nodemon bin/www.js",
     "lint": "eslint . --ext .js",
     "test": "jest"
   },
@@ -12,7 +12,8 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7"
   },
   "eslintConfig": {
     "extends": [
