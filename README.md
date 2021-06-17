@@ -3,21 +3,23 @@
 ![JS](https://img.icons8.com/nolan/2x/react-native.png)
 ## Fullstack JS homework
 
-Welcome to my solution attempt of Kiwi's Fullstack JS homework. The project is structured in two parts, one is reserved for the frontend and the other is for the backend.
+Welcome to my solution attempt of Kiwi's Fullstack JS homework!
+
+The project is structured in two parts, one is reserved for the frontend and the other is for the backend.
 
 ### The frontend
 
-Consists of a React application which fetches T9 word prediction data from an API. It offers the user a similar experience of typing in old phones using numeric keyboards.
+Consists of a React application that fetches T9 word prediction data from a web api. It includes Storybook for you to see each one of the components in an isolated environment.
 
 #### Features
 - Light / Dark theme based on the user's color schema.
 - Nice numeric keyboard.
 - T9 mode switch.
+- Suggestions dictionary to avoid repeated service requests.
 
 ### The backend
 
-Consists of a Node/Express application that provides a web API from where the user can fetch T9 word prediction data. The suggestion algorithm
- was implemented using Tries.
+Consists of a Node/Express application that provides a T9 word prediction data web API. The suggestion algorithm was implemented using Tries.
  
  #### Features
  
@@ -27,7 +29,7 @@ Consists of a Node/Express application that provides a web API from where the us
 #### General
 
 Both applications are configured to use eslint (with airbnb style guide), prettier and husky. There are git hooks that trigger
-linting scripts and tests scripts before comitting and pushing, respectively.
+linting and tests scripts before comitting and pushing, respectively.
 
 ### Instructions
 
@@ -42,8 +44,7 @@ linting scripts and tests scripts before comitting and pushing, respectively.
 1. Run `npm run both:test` to install the tools.
 
 #### How do I change the URL of the API the frontend is using?
-There is a .env file located in the frontend folder that has the environment variable that sets that value.
+There is a .env file located in the frontend folder that has the environment variable that controls that value.
 0. Move to the frontend folder.
 1. Open the .env file.
 2. Change the value of the REACT_APP_T9_API_URL variable.
-
