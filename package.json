@@ -1,0 +1,50 @@
+{
+  "name": "kiwi-challenge",
+  "version": "0.1.0",
+  "description": "Kiwi Challenge - T9 Predictive Words App",
+  "scripts": {
+    "frontend:test": "cd frontend && npm run test -- --watchAll=false",
+    "frontend:lint": "cd frontend && npm run lint",
+    "backend:test": "cd backend && npm run test",
+    "backend:lint": "cd backend && npm run lint",
+    "frontend:install": "cd frontend && npm install",
+    "backend:install": "cd backend && npm install",
+    "frontend:start": "cd frontend && npm run start",
+    "backend:start": "cd backend && cross-env PORT=3001 npm run start",
+    "both:test": "npm run frontend:test && npm run backend:test",
+    "both:install": "npm run frontend:install && npm run backend:install",
+    "start": "concurrently \"npm run backend:start\" \"npm run frontend:start\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run frontend:test && npm run backend:test"
+    }
+  },
+  "lint-staged": {
+    "./frontend/**/*.{js,jsx}": "npm run frontend:lint",
+    "./backend/**/*.{js}": "npm run backend:lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbustosp/kiwi-challenge.git"
+  },
+  "keywords": [
+    "challenge",
+    "kiwi",
+    "backend",
+    "frontend"
+  ],
+  "author": "Matías Bustos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbustosp/kiwi-challenge/issues"
+  },
+  "homepage": "https://github.com/mbustosp/kiwi-challenge#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3",
+    "husky": "4.3.8",
+    "lint-staged": "^11.0.0"
+  }
+}
