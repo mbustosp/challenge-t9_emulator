@@ -1,11 +1,8 @@
 import { useCallback, useState } from "react";
 import keysMapping from "../components/molecules/Keyboard/keysMapping";
+import { fetchSuggestions } from "../service/T9Api";
 import specialChars from "../utils/specialChars";
 import "../typedefs";
-
-// TODO: Create Service layer for this request
-const fetchSuggestions = (digits) =>
-  new Promise((resolve) => resolve(digits.split("")));
 
 /**
  * Writer hook. It manages word suggestions based on T9's word prediction
