@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 
 - Web app capable of handling phonelike keyboard typing, enhanced with T9 word prediction by the use of external services.
+- Backend service that provides an endpoint that fetches t9 word predictions based on a dictionary of 10000 words.
 - Global commands to handle both application, frontend and backend.
 
 ## [1.0.0] - 2021-06-16
