@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2021-06-16
+
 ### Added 
 
-- Frontend scaffolding.
+- Web app capable of handling phonelike keyboard typing, enhanced with T9 word prediction by the use of external services.
