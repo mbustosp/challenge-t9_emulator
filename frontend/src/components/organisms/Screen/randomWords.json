@@ -1,0 +1,812 @@
+[
+  {
+    "word": 23544,
+    "idx": 38,
+    "chosen": "Love"
+  },
+  {
+    "word": 2472,
+    "idx": 29,
+    "chosen": "Heath"
+  },
+  {
+    "word": 42325,
+    "idx": 28,
+    "chosen": "Santos"
+  },
+  {
+    "word": 22747,
+    "idx": 38,
+    "chosen": "Rowland"
+  },
+  {
+    "word": 22428,
+    "idx": 20,
+    "chosen": "Latasha"
+  },
+  {
+    "word": 14738,
+    "idx": 26,
+    "chosen": "Lloyd"
+  },
+  {
+    "word": 26263,
+    "idx": 24,
+    "chosen": "Rivera"
+  },
+  {
+    "word": 276,
+    "idx": 36,
+    "chosen": "Savannah"
+  },
+  {
+    "word": 40862,
+    "idx": 20,
+    "chosen": "Mcfadden"
+  },
+  {
+    "word": 31112,
+    "idx": 34,
+    "chosen": "Leslie"
+  },
+  {
+    "word": 15914,
+    "idx": 36,
+    "chosen": "Contreras"
+  },
+  {
+    "word": 33910,
+    "idx": 40,
+    "chosen": "Ethel"
+  },
+  {
+    "word": 547,
+    "idx": 30,
+    "chosen": "Allyson"
+  },
+  {
+    "word": 12601,
+    "idx": 27,
+    "chosen": "Tamika"
+  },
+  {
+    "word": 56045,
+    "idx": 20,
+    "chosen": "Burch"
+  },
+  {
+    "word": 58245,
+    "idx": 36,
+    "chosen": "Latisha"
+  },
+  {
+    "word": 13380,
+    "idx": 40,
+    "chosen": "Silvia"
+  },
+  {
+    "word": 3664,
+    "idx": 37,
+    "chosen": "Koch"
+  },
+  {
+    "word": 47811,
+    "idx": 26,
+    "chosen": "Cochran"
+  },
+  {
+    "word": 3082,
+    "idx": 29,
+    "chosen": "Simone"
+  },
+  {
+    "word": 36158,
+    "idx": 32,
+    "chosen": "Bruce"
+  },
+  {
+    "word": 55105,
+    "idx": 31,
+    "chosen": "Lynch"
+  },
+  {
+    "word": 49157,
+    "idx": 34,
+    "chosen": "Cruz"
+  },
+  {
+    "word": 14848,
+    "idx": 36,
+    "chosen": "Mcclain"
+  },
+  {
+    "word": 49602,
+    "idx": 23,
+    "chosen": "Galloway"
+  },
+  {
+    "word": 41930,
+    "idx": 35,
+    "chosen": "Atkinson"
+  },
+  {
+    "word": 58736,
+    "idx": 38,
+    "chosen": "Dodson"
+  },
+  {
+    "word": 5099,
+    "idx": 39,
+    "chosen": "Hyde"
+  },
+  {
+    "word": 13723,
+    "idx": 20,
+    "chosen": "Osborne"
+  },
+  {
+    "word": 59874,
+    "idx": 30,
+    "chosen": "Beverley"
+  },
+  {
+    "word": 19458,
+    "idx": 29,
+    "chosen": "Karin"
+  },
+  {
+    "word": 38584,
+    "idx": 37,
+    "chosen": "Antonia"
+  },
+  {
+    "word": 19895,
+    "idx": 32,
+    "chosen": "Robbie"
+  },
+  {
+    "word": 13700,
+    "idx": 26,
+    "chosen": "Frederick"
+  },
+  {
+    "word": 9182,
+    "idx": 35,
+    "chosen": "Edwards"
+  },
+  {
+    "word": 26440,
+    "idx": 29,
+    "chosen": "Guthrie"
+  },
+  {
+    "word": 41146,
+    "idx": 40,
+    "chosen": "Antoinette"
+  },
+  {
+    "word": 1398,
+    "idx": 24,
+    "chosen": "Macias"
+  },
+  {
+    "word": 56740,
+    "idx": 30,
+    "chosen": "Deirdre"
+  },
+  {
+    "word": 58036,
+    "idx": 32,
+    "chosen": "Olga"
+  },
+  {
+    "word": 5020,
+    "idx": 38,
+    "chosen": "Mcintyre"
+  },
+  {
+    "word": 49091,
+    "idx": 32,
+    "chosen": "Kara"
+  },
+  {
+    "word": 32791,
+    "idx": 21,
+    "chosen": "Angelique"
+  },
+  {
+    "word": 35098,
+    "idx": 23,
+    "chosen": "Gentry"
+  },
+  {
+    "word": 23034,
+    "idx": 36,
+    "chosen": "Rosanna"
+  },
+  {
+    "word": 27641,
+    "idx": 30,
+    "chosen": "Rosario"
+  },
+  {
+    "word": 36126,
+    "idx": 24,
+    "chosen": "Concetta"
+  },
+  {
+    "word": 40026,
+    "idx": 40,
+    "chosen": "Alexandra"
+  },
+  {
+    "word": 27002,
+    "idx": 23,
+    "chosen": "Kristin"
+  },
+  {
+    "word": 57324,
+    "idx": 20,
+    "chosen": "Dillon"
+  },
+  {
+    "word": 53870,
+    "idx": 36,
+    "chosen": "Cleveland"
+  },
+  {
+    "word": 58232,
+    "idx": 38,
+    "chosen": "Sofia"
+  },
+  {
+    "word": 13079,
+    "idx": 39,
+    "chosen": "Oconnor"
+  },
+  {
+    "word": 24411,
+    "idx": 38,
+    "chosen": "Carver"
+  },
+  {
+    "word": 5189,
+    "idx": 37,
+    "chosen": "Carly"
+  },
+  {
+    "word": 6632,
+    "idx": 37,
+    "chosen": "Myers"
+  },
+  {
+    "word": 5842,
+    "idx": 28,
+    "chosen": "Baldwin"
+  },
+  {
+    "word": 25953,
+    "idx": 26,
+    "chosen": "Madelyn"
+  },
+  {
+    "word": 55313,
+    "idx": 36,
+    "chosen": "Barnett"
+  },
+  {
+    "word": 1235,
+    "idx": 37,
+    "chosen": "Melba"
+  },
+  {
+    "word": 10362,
+    "idx": 37,
+    "chosen": "Jill"
+  },
+  {
+    "word": 21818,
+    "idx": 30,
+    "chosen": "Robbins"
+  },
+  {
+    "word": 9755,
+    "idx": 21,
+    "chosen": "Hilda"
+  },
+  {
+    "word": 44382,
+    "idx": 33,
+    "chosen": "Cara"
+  },
+  {
+    "word": 44367,
+    "idx": 21,
+    "chosen": "Morgan"
+  },
+  {
+    "word": 45463,
+    "idx": 38,
+    "chosen": "Combs"
+  },
+  {
+    "word": 35250,
+    "idx": 27,
+    "chosen": "Ballard"
+  },
+  {
+    "word": 19121,
+    "idx": 33,
+    "chosen": "Greene"
+  },
+  {
+    "word": 7624,
+    "idx": 33,
+    "chosen": "Burt"
+  },
+  {
+    "word": 50337,
+    "idx": 36,
+    "chosen": "Hudson"
+  },
+  {
+    "word": 32107,
+    "idx": 33,
+    "chosen": "Murphy"
+  },
+  {
+    "word": 14314,
+    "idx": 35,
+    "chosen": "Karla"
+  },
+  {
+    "word": 20332,
+    "idx": 29,
+    "chosen": "Hatfield"
+  },
+  {
+    "word": 19523,
+    "idx": 40,
+    "chosen": "Janis"
+  },
+  {
+    "word": 10056,
+    "idx": 35,
+    "chosen": "Crystal"
+  },
+  {
+    "word": 59761,
+    "idx": 26,
+    "chosen": "Kristi"
+  },
+  {
+    "word": 24707,
+    "idx": 36,
+    "chosen": "Matilda"
+  },
+  {
+    "word": 7180,
+    "idx": 27,
+    "chosen": "Bonner"
+  },
+  {
+    "word": 55049,
+    "idx": 38,
+    "chosen": "Summers"
+  },
+  {
+    "word": 8760,
+    "idx": 36,
+    "chosen": "Stein"
+  },
+  {
+    "word": 14774,
+    "idx": 23,
+    "chosen": "Nichole"
+  },
+  {
+    "word": 57668,
+    "idx": 23,
+    "chosen": "Hess"
+  },
+  {
+    "word": 2299,
+    "idx": 23,
+    "chosen": "Drake"
+  },
+  {
+    "word": 31936,
+    "idx": 36,
+    "chosen": "Wilder"
+  },
+  {
+    "word": 49674,
+    "idx": 32,
+    "chosen": "Juliana"
+  },
+  {
+    "word": 45304,
+    "idx": 32,
+    "chosen": "Catalina"
+  },
+  {
+    "word": 55838,
+    "idx": 26,
+    "chosen": "Bray"
+  },
+  {
+    "word": 47288,
+    "idx": 27,
+    "chosen": "Yates"
+  },
+  {
+    "word": 40429,
+    "idx": 35,
+    "chosen": "Estella"
+  },
+  {
+    "word": 21758,
+    "idx": 20,
+    "chosen": "Marks"
+  },
+  {
+    "word": 20625,
+    "idx": 31,
+    "chosen": "Wilkerson"
+  },
+  {
+    "word": 43095,
+    "idx": 20,
+    "chosen": "Briana"
+  },
+  {
+    "word": 26418,
+    "idx": 21,
+    "chosen": "Fern"
+  },
+  {
+    "word": 57892,
+    "idx": 28,
+    "chosen": "Julie"
+  },
+  {
+    "word": 49769,
+    "idx": 26,
+    "chosen": "Laverne"
+  },
+  {
+    "word": 31865,
+    "idx": 36,
+    "chosen": "Cross"
+  },
+  {
+    "word": 2492,
+    "idx": 24,
+    "chosen": "Lyons"
+  },
+  {
+    "word": 36179,
+    "idx": 29,
+    "chosen": "Betty"
+  },
+  {
+    "word": 54110,
+    "idx": 21,
+    "chosen": "Jefferson"
+  },
+  {
+    "word": 26383,
+    "idx": 32,
+    "chosen": "Melissa"
+  },
+  {
+    "word": 26730,
+    "idx": 25,
+    "chosen": "Briggs"
+  },
+  {
+    "word": 13053,
+    "idx": 22,
+    "chosen": "Fischer"
+  },
+  {
+    "word": 120,
+    "idx": 21,
+    "chosen": "Cabrera"
+  },
+  {
+    "word": 9377,
+    "idx": 30,
+    "chosen": "Hebert"
+  },
+  {
+    "word": 59502,
+    "idx": 33,
+    "chosen": "Pratt"
+  },
+  {
+    "word": 12048,
+    "idx": 23,
+    "chosen": "Kate"
+  },
+  {
+    "word": 40492,
+    "idx": 21,
+    "chosen": "Amber"
+  },
+  {
+    "word": 36660,
+    "idx": 28,
+    "chosen": "Fulton"
+  },
+  {
+    "word": 58395,
+    "idx": 40,
+    "chosen": "Langley"
+  },
+  {
+    "word": 39298,
+    "idx": 36,
+    "chosen": "Beatriz"
+  },
+  {
+    "word": 7477,
+    "idx": 33,
+    "chosen": "Alison"
+  },
+  {
+    "word": 52936,
+    "idx": 37,
+    "chosen": "Maritza"
+  },
+  {
+    "word": 13980,
+    "idx": 34,
+    "chosen": "Schultz"
+  },
+  {
+    "word": 6196,
+    "idx": 35,
+    "chosen": "Morgan"
+  },
+  {
+    "word": 25225,
+    "idx": 33,
+    "chosen": "Noel"
+  },
+  {
+    "word": 52732,
+    "idx": 33,
+    "chosen": "Mullins"
+  },
+  {
+    "word": 22906,
+    "idx": 23,
+    "chosen": "Bryant"
+  },
+  {
+    "word": 46063,
+    "idx": 34,
+    "chosen": "Lorraine"
+  },
+  {
+    "word": 33192,
+    "idx": 32,
+    "chosen": "Petty"
+  },
+  {
+    "word": 33082,
+    "idx": 38,
+    "chosen": "Rochelle"
+  },
+  {
+    "word": 24868,
+    "idx": 24,
+    "chosen": "Adams"
+  },
+  {
+    "word": 23580,
+    "idx": 27,
+    "chosen": "Bradley"
+  },
+  {
+    "word": 35196,
+    "idx": 21,
+    "chosen": "Wolfe"
+  },
+  {
+    "word": 29345,
+    "idx": 31,
+    "chosen": "Gilmore"
+  },
+  {
+    "word": 7858,
+    "idx": 25,
+    "chosen": "Corinne"
+  },
+  {
+    "word": 27708,
+    "idx": 22,
+    "chosen": "Clarke"
+  },
+  {
+    "word": 15887,
+    "idx": 20,
+    "chosen": "Cortez"
+  },
+  {
+    "word": 37997,
+    "idx": 40,
+    "chosen": "Blackburn"
+  },
+  {
+    "word": 20126,
+    "idx": 37,
+    "chosen": "Rollins"
+  },
+  {
+    "word": 28385,
+    "idx": 23,
+    "chosen": "Kaitlin"
+  },
+  {
+    "word": 37372,
+    "idx": 40,
+    "chosen": "Gibson"
+  },
+  {
+    "word": 3980,
+    "idx": 27,
+    "chosen": "Prince"
+  },
+  {
+    "word": 278,
+    "idx": 23,
+    "chosen": "Taylor"
+  },
+  {
+    "word": 40177,
+    "idx": 29,
+    "chosen": "Selena"
+  },
+  {
+    "word": 18163,
+    "idx": 36,
+    "chosen": "Rivers"
+  },
+  {
+    "word": 18492,
+    "idx": 39,
+    "chosen": "Marietta"
+  },
+  {
+    "word": 44878,
+    "idx": 39,
+    "chosen": "Lorna"
+  },
+  {
+    "word": 19472,
+    "idx": 36,
+    "chosen": "Thornton"
+  },
+  {
+    "word": 38027,
+    "idx": 38,
+    "chosen": "Abigail"
+  },
+  {
+    "word": 36693,
+    "idx": 28,
+    "chosen": "Hannah"
+  },
+  {
+    "word": 23194,
+    "idx": 28,
+    "chosen": "Constance"
+  },
+  {
+    "word": 42291,
+    "idx": 28,
+    "chosen": "Graves"
+  },
+  {
+    "word": 27263,
+    "idx": 29,
+    "chosen": "Freeman"
+  },
+  {
+    "word": 52489,
+    "idx": 28,
+    "chosen": "Witt"
+  },
+  {
+    "word": 6447,
+    "idx": 20,
+    "chosen": "Rodriquez"
+  },
+  {
+    "word": 34867,
+    "idx": 23,
+    "chosen": "Barr"
+  },
+  {
+    "word": 29204,
+    "idx": 36,
+    "chosen": "Raquel"
+  },
+  {
+    "word": 27105,
+    "idx": 36,
+    "chosen": "Acevedo"
+  },
+  {
+    "word": 31973,
+    "idx": 32,
+    "chosen": "Steele"
+  },
+  {
+    "word": 51809,
+    "idx": 35,
+    "chosen": "Aurora"
+  },
+  {
+    "word": 39963,
+    "idx": 31,
+    "chosen": "Eaton"
+  },
+  {
+    "word": 11561,
+    "idx": 25,
+    "chosen": "Lacy"
+  },
+  {
+    "word": 33477,
+    "idx": 31,
+    "chosen": "Jenna"
+  },
+  {
+    "word": 47057,
+    "idx": 32,
+    "chosen": "Price"
+  },
+  {
+    "word": 41624,
+    "idx": 33,
+    "chosen": "Riley"
+  },
+  {
+    "word": 53034,
+    "idx": 20,
+    "chosen": "Williams"
+  },
+  {
+    "word": 57003,
+    "idx": 23,
+    "chosen": "Lenora"
+  },
+  {
+    "word": 36801,
+    "idx": 35,
+    "chosen": "Kris"
+  },
+  {
+    "word": 48496,
+    "idx": 37,
+    "chosen": "Clara"
+  },
+  {
+    "word": 59996,
+    "idx": 35,
+    "chosen": "Paige"
+  },
+  {
+    "word": 41741,
+    "idx": 21,
+    "chosen": "David"
+  },
+  {
+    "word": 36062,
+    "idx": 24,
+    "chosen": "Natalie"
+  }
+]
