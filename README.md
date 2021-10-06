@@ -1,9 +1,7 @@
-# kiwi-challenge
+# T9 Emulator
 
 ![JS](https://img.icons8.com/nolan/2x/react-native.png)
 ## Fullstack JS homework
-
-Welcome to my solution attempt of Kiwi's Fullstack JS homework!
 
 The project is structured in two parts, one is reserved for the frontend and the other is for the backend.
 
